@@ -1,0 +1,24 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+                
+
+@import "tailwindcss";
+
+@theme {  
+  /*Fonts*/
+  --font-family: 'Satoshi', sans-serif;
+
+  /*Colors*/
+  --color-brand: #19CFA3;       /* main green */
+  --color-brand-dark: #15803d;  /* hover state */
+  --color-surface: #f8fafc;     /* light background */
+  --color-text: #7D7E7F;        /* dark text */
+  --color-muted: #6b7280; 
+  
+  
+  /*Shadows*/
+  --shadow-default: 0 3px 5px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 4px 10px rgba(0, 0, 0, 0.25);
+  --shadow-hero: 0 1px 15px 0 rgb(11, 54, 3, 0.2), inset 0px 0px 7px 0px rgba(255, 255, 255, 0.8);
+  --shadow-hero-img: 0 1px 40px 0 rgba(0, 0, 0, 0.08);
+}
