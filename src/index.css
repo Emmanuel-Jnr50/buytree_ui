@@ -22,6 +22,7 @@
   --shadow-hero: 0 1px 15px 0 rgb(11, 54, 3, 0.2), inset 0px 0px 7px 0px rgba(255, 255, 255, 0.8);
   --shadow-hero-img: 0 1px 40px 0 rgba(0, 0, 0, 0.08);
   --shadow-offer: 0 10px 40px 0 rgba(0, 0, 0, 0.08), inset 0px 0px 10px 0px rgba(255, 255, 255);
+  --shadow-card: 0 8px 35px 0 rgba(0, 0, 0, 0.05);
 
 }
 

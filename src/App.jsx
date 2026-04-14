@@ -7,7 +7,10 @@ import ImageCarousel from "./components/ImageCarousel";
 import landing from './assets/Buytee official Dashboard.png'
 import Sample from './assets/Store sample.png'
 import FloatSales from './assets/floating sales.png'
-
+import FirstStep from './assets/first-step.png'
+import SecondStep from './assets/second-step.png'
+import ThirdStep from './assets/third-step.png'
+import FourthStep from './assets/fourth-step.png'
 
 function App() {
   return (
@@ -16,14 +19,16 @@ function App() {
     
       <Hero />
 
-      <Features />
+      <Offer />
+
+      <HowItWorks />
     </div>
   );
 }
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden max-h-[140vh] max-lg:h-[128vh] w-[97%] mx-auto rounded-b-[40px] max-sm:max-h-[100vh] max-sm:pb-12 max-sm:w-full max-sm:text-[12px] max-sm:rounded-b-none">
+    <section className="relative overflow-hidden max-h-[140vh] max-lg:h-[128vh] w-[97%] mx-auto rounded-b-[40px] max-sm:max-h-screen max-sm:pb-12 max-sm:w-full max-sm:text-[12px] max-sm:rounded-b-none">
 
       <div className="blobs mx-auto flex items-center justify-center  mb-25">
         {/* Left Small Blob */}
@@ -55,7 +60,7 @@ const Hero = () => {
 }
 
 
-const Features = () => {
+const Offer = () => {
   return (
     <section className="features overflow-hidden relative mx-auto pt-25 pb-50 flex flex-col items-center space-y-8 max-sm:space-y-6 max-sm:pt-12">
       <span className="font-family mb-20 text-[14px] text-center w-fit flex gap-2 px-2.5 pt-2 pb-2 bg-[#FEFEFE] border border-[#ECECEC] font-medium text-text rounded-xl max-lg:text-[13.5px] max-lg:gap-1.5 max-sm:text-[12px] max-sm:pt-1.5 max-sm:pb-1 max-sm:px-2.5 max-sm:rounded-[10px]"><People size={22} color="#868686" variant="Bold" className="max-lg:w-4.5 max-sm:w-4" />Trusted by Entrepreneurs</span>
@@ -66,17 +71,17 @@ const Features = () => {
         <div className="flex flex-col gap-7">
           <span className="font-family text-[14px] text-center w-fit flex gap-2 px-2.5 pt-2 pb-2 bg-[#F6FEFD] border border-brand font-medium text-brand rounded-xl max-lg:text-[13.5px] max-lg:gap-1.5 max-sm:text-[12px] max-sm:pt-1.5 max-sm:pb-1 max-sm:px-2.5 max-sm:rounded-[10px]"><People size={22} color="#19CFA3" variant="Bold" className="max-lg:w-4.5 max-sm:w-4 " />What we Offer</span>
           <h2 className="font-family text-[60px] font-bold -tracking-[1.5px] w-155 leading-17 max-sm:text-[30px] max-sm:tracking-[-1.5px] max-sm:leading-9.5">Launch your own <br /> online store in <span className="text-brand">minutes</span></h2>
-          <p className="font-family text-text w-125 leading-6.25 font-medium max-sm:w-[85%] max-sm:text-[14px] max-sm:leading-[23px]">Create a branded storefront, list your products, and start reaching customers with a smoother online selling experience.</p>
+          <p className="font-family text-text w-125 leading-6.25 font-medium max-sm:w-[85%] max-sm:text-[14px] max-sm:leading-5.75">Create a branded storefront, list your products, and start reaching customers with a smoother online selling experience.</p>
 
           <div className="stat font-family flex justify-between gap-[10%] mt-20 max-sm:mt-10">
             <div className="flex flex-col gap-5 max-sm:gap-3.5">
               <span className="flex gap-4.5 items-center text-[50px] tracking-[-1px] font-bold max-sm:text-[30px] max-sm:gap-3.5"><Shop size={40} color="#19cfa3" variant="Bold" className="max-sm:w-7" /> 22k+</span>
-              <p className="text-text text-[16px] leading-6.25 w-65 font-medium max-sm:text-[12px] max-sm:leading-[20px] max-sm:w-40">Stores launched by sellers nationwide</p>
+              <p className="text-text text-[16px] leading-6.25 w-65 font-medium max-sm:text-[12px] max-sm:leading-5 max-sm:w-40">Stores launched by sellers nationwide</p>
             </div>
 
             <div className="flex flex-col gap-5 max-sm:gap-3.5">
               <span className="flex gap-4.5 items-center text-[50px] tracking-[-1px] font-bold  max-sm:text-[30px] max-sm:gap-3.5"><Heart size={40} color="#19cfa3" variant="Bold" className="max-sm:w-7"/> 89%</span>
-              <p className="text-text text-[16px] leading-6.25 w-65 font-medium max-sm:text-[12px] max-sm:leading-[20px]">Seller satisfaction with <br /> platform usability</p>
+              <p className="text-text text-[16px] leading-6.25 w-65 font-medium max-sm:text-[12px] max-sm:leading-5">Seller satisfaction with <br /> platform usability</p>
             </div>
           </div>
         </div>
@@ -91,4 +96,43 @@ const Features = () => {
   )
 }
   
+
+const HowItWorks = () => { 
+  return (
+    <section className="how-it-works relative overflow-hidden bg-[#F9FAFC] pt-25 pb-50 max-sm:pt-12 max-sm:pb-30">
+      <h2 className="font-family text-[55px] font-bold text-center -tracking-[2px] leading-17 max-sm:text-[30px] max-sm:tracking-[-1px] max-sm:leading-9.5">How <span className="text-brand">BuyTree</span> Works?</h2>
+      <div className="cards flex gap-6.5 justify-center mt-25 max-sm:flex-col max-sm:w-full max-sm:px-5 relative">
+        <div className="card bg-white border border-[#e7e7e7] h-120 w-[20%] rounded-[25px] shadow-card relative overflow-hidden max-sm:w-full max-sm:h-95 max-sm:sticky max-sm:top-0">
+          <img src={FirstStep} alt="First Step" className="w-full max-sm:w-[90%] mx-auto"/>
+          <div className="info flex flex-col gap-3 z-10 pt-8 pb-5 px-5.5 absolute bottom-0 bg-gradient-to-t from-white to-white w-full max-sm:pt-5">
+            <h3 className="font-family text-[22px] font-semibold tracking-[-0.4px] max-sm:text-[20px] max-sm:font-medium">Create Your Store</h3>
+            <p className="font-family text-[#aaaaaa] text-[15px]">Set up a custom storefront in a matter of minutes without technical skills.</p>
+          </div>
+        </div>
+        <div className="card bg-white border border-[#e7e7e7] h-120 w-[20%] rounded-[25px] shadow-card relative overflow-hidden max-sm:w-full max-sm:h-95 max-sm:sticky max-sm:top-0">
+          <img src={SecondStep} alt="First Step" className="w-full max-sm:w-[90%] mx-auto" />
+          <div className="info flex flex-col gap-3 z-10 bg-white pt-8 pb-5 px-5.5 absolute bottom-0 bg-linear-to-t from-white to-[#ffffff00] w-full max-sm:pt-5">
+            <h3 className="font-family text-[22px] font-semibold tracking-[-0.4px] max-sm:text-[20px] max-sm:font-medium">Add Your Products</h3>
+            <p className="font-family text-[#aaaaaa] text-[15px]">Set up a custom storefront in a matter of minutes without technical skills.</p>
+          </div>
+        </div>
+        <div className="card bg-white border border-[#e7e7e7] h-120 w-[20%] rounded-[25px] shadow-card relative overflow-hidden max-sm:w-full max-sm:h-95 max-sm:sticky max-sm:top-0">
+          <img src={ThirdStep} alt="First Step" className="w-full max-sm:w-[90%] mx-auto" />
+          <div className="info flex flex-col gap-3 z-10 bg-white pt-8 pb-5 px-5.5 absolute bottom-0 bg-linear-to-t from-white to-[#ffffff00] w-full max-sm:pt-5">
+            <h3 className="font-family text-[22px] font-semibold tracking-[-0.4px] max-sm:text-[20px] max-sm:font-medium">Start Selling Online</h3>
+            <p className="font-family text-[#aaaaaa] text-[15px]">Set up a custom storefront in a matter of minutes without technical skills.</p>
+          </div>
+        </div>
+        <div className="card bg-white border border-[#e7e7e7] h-120 w-[20%] rounded-[25px] shadow-card relative overflow-hidden max-sm:w-full max-sm:h-95 max-sm:sticky max-sm:top-0">
+          <img src={FourthStep} alt="First Step" className="w-full max-sm:w-[90%] mx-auto" />
+          <div className="info flex flex-col gap-3 z-10 bg-white pt-8 pb-5 px-5.5 absolute bottom-0 bg-linear-to-t from-white to-[#ffffff00] w-full max-sm:pt-5">
+            <h3 className="font-family text-[22px] font-semibold tracking-[-0.4px] max-sm:text-[20px] max-sm:font-medium">Manage & Grow</h3>
+            <p className="font-family text-[#aaaaaa] text-[15px]">Set up a custom storefront in a matter of minutes without technical skills.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
 export default App;
