@@ -29,7 +29,7 @@ const ImageCarousel = () => {
                     <img
                     src={src}
                     alt={`slide-${index}`}
-                    className="w-50 h-fit max-sm:w-35"
+                    className="w-50 max-sm:w-35"
                     />
                 </div>
                 ))}

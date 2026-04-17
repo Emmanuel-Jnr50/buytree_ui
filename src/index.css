@@ -23,6 +23,8 @@
   --shadow-hero-img: 0 1px 40px 0 rgba(0, 0, 0, 0.08);
   --shadow-offer: 0 10px 40px 0 rgba(0, 0, 0, 0.08), inset 0px 0px 10px 0px rgba(255, 255, 255);
   --shadow-card: 0 8px 35px 0 rgba(0, 0, 0, 0.05);
+  --shadow-feature: 0 5px 10px 0 rgba(0, 0, 0, 0.05), inset 0px 0px 10px 0px rgba(255, 255, 255);
+  --shadow-icon: 0 5px 20px 0 rgba(32, 201, 172, 0.3), inset 0px 0px 10px 0px rgba(255, 255, 255);
 
 }
 
@@ -36,4 +38,11 @@
 }
 .animate-scroll:hover {
   animation-play-state: paused;
+}
+.cards::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
