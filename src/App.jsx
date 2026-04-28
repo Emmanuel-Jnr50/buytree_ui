@@ -75,7 +75,7 @@ const Offer = () => {
 
       <ImageCarousel />
 
-      <div className="offer  flex justify-between items-center w-full px-40 max-2xl:px-25 mt-50 max-sm:px-5 max-sm:mt-30 max-sm:gap-30 max-sm:w-full max-sm:block">
+      <div className="offer  flex justify-between items-center w-full px-40 max-2xl:px-22 max-xl:px-18 mt-50 max-sm:px-5 max-sm:mt-30 max-sm:gap-30 max-sm:w-full max-sm:block">
         <div className="flex flex-col gap-7">
           <span className="font-family text-[14px] text-center w-fit flex gap-2 px-2.5 pt-2 pb-2 bg-[#F6FEFD] border border-brand font-medium text-brand rounded-xl max-lg:text-[13.5px] max-lg:gap-1.5 max-sm:text-[12px] max-sm:pt-1.5 max-sm:pb-1 max-sm:px-2.5 max-sm:rounded-[10px]"><Flash size={22} color="#19CFA3" variant="Bold" className="max-lg:w-4.5 max-sm:w-4 " />What we Offer</span>
           <h2 className="font-family text-[60px] font-bold -tracking-[1.5px] w-155 leading-17 max-sm:text-[30px] max-sm:tracking-[-1.5px] max-sm:leading-9.5 max-2xl:text-[54px] max-2xl:leading-[61px]">Launch your own <br /> online store in <span className="text-brand">minutes</span></h2>
@@ -182,7 +182,7 @@ const HowItWorks = () => {
 
       {/* Cards container */}
       <div
-        ref={scrollRef} className="cards flex gap-6.5 justify-center mt-25 max-sm:justify-start max-sm:mt-20 max-sm:overflow-x-auto max-sm:snap-x max-sm:snap-mandatory max-sm:scroll-smooth max-sm:scrollbar-hide max-sm:flex-nowrap max-sm:px-8 max-2xl:px-0"
+        ref={scrollRef} className="cards flex gap-6.5 justify-center mt-25 max-sm:justify-start max-sm:mt-20 max-sm:flex max-sm:overflow-x-auto max-sm:snap-x max-sm:snap-mandatory max-sm:scroll-smooth max-sm:scrollbar-hide max-sm:flex-nowrap max-sm:px-8 max-2xl:px-0 max-xl:grid max-xl:grid-cols-2 max-xl:gap-10 max-xl:px-18"
       >
 
         {/* Left padding anchor — forces first card to snap from the very start */}
@@ -190,45 +190,45 @@ const HowItWorks = () => {
 
         <div className="card bg-white border border-[#e7e7e7] h-120 w-[20%] rounded-[25px] shadow-card relative overflow-hidden
           max-sm:w-[85vw] max-sm:flex-shrink-0 max-sm:h-75
-          max-sm:snap-center max-sm:shadow-card/2 max-2xl:h-[42vh] max-2xl:w-[21%]">
-          <img src={FirstStep} alt="First Step" className="w-full max-sm:w-[70%] mx-auto max-sm:-mt-2" />
+          max-sm:snap-center max-sm:shadow-card/2 max-2xl:h-[42vh] max-2xl:w-[21%] max-xl:h-95 max-xl:w-[100%] max-xl:mx-auto">
+          <img src={FirstStep} alt="First Step" className="w-full max-sm:w-[70%] mx-auto max-sm:-mt-2 max-xl:w-[80%]" />
           <span className="bg-brand h-8 w-8 rounded-full absolute text-center flex items-center justify-center text-white font-medium top-5 left-5 font-family shadow-hero">1</span>
-          <div className="info flex flex-col gap-3 z-10 pt-15 pb-5 px-5.5 absolute bottom-0 bg-linear-to-t from-white to-[#ffffff00] via-white w-full max-sm:pt-10 max-sm:gap-2">
+          <div className="info flex flex-col gap-3 z-10 pt-15 pb-5 px-5.5 absolute bottom-0 bg-linear-to-t from-white to-[#ffffff00] via-white w-full max-sm:pt-10 max-sm:gap-2 max-xl:pt-25">
             <h3 className="font-family text-[22px] font-semibold tracking-[-0.4px] max-sm:text-[18px]">Create Your Store</h3>
-            <p className="font-family text-[#aaaaaa] text-[15px] max-sm:text-[14px]">Set up a custom storefront in a matter of minutes without technical skills.</p>
+            <p className="font-family text-[#aaaaaa] text-[15px] max-sm:text-[14px] max-xl:w-[80%]">Set up a custom storefront in a matter of minutes without technical skills.</p>
           </div>
         </div>
 
         <div className="card bg-white border border-[#e7e7e7] h-120 w-[20%] rounded-[25px] shadow-card relative overflow-hidden
           max-sm:w-[85vw] max-sm:flex-shrink-0 max-sm:h-75
-          max-sm:snap-center max-sm:shadow-card/2 max-2xl:h-[42vh] max-2xl:w-[21%]">
-          <img src={SecondStep} alt="Second Step" className="w-full max-sm:w-[70%] mx-auto" />
+          max-sm:snap-center max-sm:shadow-card/2 max-2xl:h-[42vh] max-2xl:w-[21%] max-xl:h-95 max-xl:w-[100%] max-xl:mx-auto">
+          <img src={SecondStep} alt="Second Step" className="w-full max-sm:w-[70%] mx-auto max-xl:w-[75%] max-xl:-mt-10" />
           <span className="bg-brand h-8 w-8 rounded-full absolute text-center flex items-center justify-center text-white font-medium top-5 left-5 font-family shadow-hero">2</span>
-          <div className="info flex flex-col gap-3 z-10 pt-15 pb-5 px-5.5 absolute bottom-0 bg-linear-to-t from-white to-[#ffffff00] via-white w-full max-sm:pt-10 max-sm:gap-2">
+          <div className="info flex flex-col gap-3 z-10 pt-15 pb-5 px-5.5 absolute bottom-0 bg-linear-to-t from-white to-[#ffffff00] via-white w-full max-sm:pt-10 max-sm:gap-2 max-xl:pt-25">
             <h3 className="font-family text-[22px] font-semibold tracking-[-0.4px] max-sm:text-[18px]">Add Your Products</h3>
-            <p className="font-family text-[#aaaaaa] text-[15px] max-sm:text-[14px]">Upload products, set prices, details and organize your catalog easily.</p>
+            <p className="font-family text-[#aaaaaa] text-[15px] max-sm:text-[14px] max-xl:w-[80%]">Upload products, set prices, details and organize your catalog easily.</p>
           </div>
         </div>
 
         <div className="card bg-white border border-[#e7e7e7] h-120 w-[20%] rounded-[25px] shadow-card relative overflow-hidden
           max-sm:w-[85vw] max-sm:flex-shrink-0 max-sm:h-75
-          max-sm:snap-center max-sm:shadow-card/2 max-2xl:h-[42vh] max-2xl:w-[21%]">
-          <img src={ThirdStep} alt="Third Step" className="w-full max-sm:w-[70%] mx-auto" />
+          max-sm:snap-center max-sm:shadow-card/2 max-2xl:h-[42vh] max-2xl:w-[21%] max-xl:w-[100%] max-xl:mx-auto">
+          <img src={ThirdStep} alt="Third Step" className="w-full max-sm:w-[70%] mx-auto max-xl:w-[75%] max-xl:-mt-10" />
           <span className="bg-brand h-8 w-8 rounded-full absolute text-center flex items-center justify-center text-white font-medium top-5 left-5 font-family shadow-hero">3</span>
-          <div className="info flex flex-col gap-3 z-10 pt-15 pb-5 px-5.5 absolute bottom-0 bg-linear-to-t from-white to-[#ffffff00] via-white w-full max-sm:pt-10 max-sm:gap-2">
+          <div className="info flex flex-col gap-3 z-10 pt-15 pb-5 px-5.5 absolute bottom-0 bg-linear-to-t from-white to-[#ffffff00] via-white w-full max-sm:pt-10 max-sm:gap-2 max-xl:pt-25">
             <h3 className="font-family text-[22px] font-semibold tracking-[-0.4px] max-sm:text-[18px]">Start Selling Online</h3>
-            <p className="font-family text-[#aaaaaa] text-[15px] max-sm:text-[14px]">Share your store link and accept secure online payments instantly.</p>
+            <p className="font-family text-[#aaaaaa] text-[15px] max-sm:text-[14px] max-xl:w-[80%]">Share your store link and accept secure online payments instantly.</p>
           </div>
         </div>
 
         <div className="card bg-white border border-[#e7e7e7] h-120 w-[20%] rounded-[25px] shadow-card relative overflow-hidden
           max-sm:w-[85vw] max-sm:flex-shrink-0 max-sm:h-75
-          max-sm:snap-center max-sm:shadow-card/2 max-2xl:h-[42vh] max-2xl:w-[21%]">
-          <img src={FourthStep} alt="Fourth Step" className="w-full max-sm:w-[70%] mx-auto max-sm:-mt-2" />
+          max-sm:snap-center max-sm:shadow-card/2 max-2xl:h-[42vh] max-2xl:w-[21%] max-xl:w-[100%] max-xl:mx-auto">
+          <img src={FourthStep} alt="Fourth Step" className="w-full max-sm:w-[70%] mx-auto max-sm:-mt-2 max-xl:w-[70%]" />
           <span className="bg-brand h-8 w-8 rounded-full absolute text-center flex items-center justify-center text-white font-medium top-5 left-5 font-family shadow-hero">4</span>
-          <div className="info flex flex-col gap-3 z-10 pt-15 pb-5 px-5.5 absolute bottom-0 bg-linear-to-t from-white to-[#ffffff00] via-white w-full max-sm:pt-15 max-sm:gap-2">
+          <div className="info flex flex-col gap-3 z-10 pt-15 pb-5 px-5.5 absolute bottom-0 bg-linear-to-t from-white to-[#ffffff00] via-white w-full max-sm:pt-15 max-sm:gap-2 max-xl:pt-25">
             <h3 className="font-family text-[22px] font-semibold tracking-[-0.4px] max-sm:text-[18px]">Manage & Grow</h3>
-            <p className="font-family text-[#aaaaaa] text-[15px] max-sm:text-[14px]">Track orders, manage customers, and grow your online business smoothly.</p>
+            <p className="font-family text-[#aaaaaa] text-[15px] max-sm:text-[14px] max-xl:w-[80%]">Track orders, manage customers, and grow your online business smoothly.</p>
           </div>
         </div>
 
@@ -253,41 +253,41 @@ const HowItWorks = () => {
 
 const Features = () => {
   return (
-    <section className="features relative pt-40 pb-50 px-40 flex justify-between items-start">
-      <div className="flex flex-col space-y-8 max-sm:space-y-6 max-sm:pt-12 max-sm:px-5 sticky top-34">
+    <section className="features relative pt-40 pb-50 px-40 flex justify-between items-start max-2xl:px-22 max-sm:px-5 max-sm:-mt-50 max-sm:gap-30 max-sm:w-full max-sm:block">
+      <div className="flex flex-col space-y-8 max-sm:space-y-6 max-sm:pt-12 sticky top-34 max-sm:relative">
       <span className="font-family text-[14px] w-fit flex gap-2 px-2.5 pt-2 pb-2 bg-[#F6FEFD] border border-brand font-medium text-brand rounded-xl max-lg:text-[13.5px] max-lg:gap-1.5 max-sm:text-[12px] max-sm:pt-1.5 max-sm:pb-1 max-sm:px-2.5 max-sm:rounded-[10px]"><People size={22} color="#19CFA3" variant="Bold" className="max-lg:w-4.5 max-sm:w-4 " />Our Features</span>
-          <h2 className="font-family text-[60px] font-bold -tracking-[1.5px] w-155 leading-17 max-sm:text-[30px] max-sm:tracking-[-1.5px] max-sm:leading-9.5 max-sm:w-fit">Perfect <span className="text-brand">features</span>  <br />built for modern sellers </h2>
+          <h2 className="font-family text-[60px] font-bold -tracking-[1.5px] w-155 leading-17 max-sm:text-[30px] max-sm:tracking-[-1.5px] max-sm:leading-9.5 max-sm:w-fit max-2xl:text-[54px] max-2xl:leading-[61px]">Perfect <span className="text-brand">features</span>  <br />built for modern sellers </h2>
           <p className="font-family text-text w-130 leading-6.25 font-medium max-sm:w-[85%] max-sm:text-[14px] max-sm:leading-5.75">Powerful tools designed to simplify how you sell, manage, and grow your business online—so you can stay in control, move faster, and scale with confidence.</p>
 
           <button className='mt-4 font-medium font-family flex space-x-4 items-center bg-brand text-[#ffffff] px-6.5 py-3.5 rounded-full gap-1.5 shadow-hero hover:shadow-hover duration-400 cursor-pointer max-sm:text-[15px] w-fit'>Get Started<ArrowRight /></button>
 
       </div>
       {/* <div className="sticky top-40 right-2 blur-[150px] bg-[#79ffc5]/30 h-109 w-113.75 rounded-[100%] max-sm:w-75 max-sm:h-65 max-sm:blur-[100px]"></div> */}
-      <div className="feature-cards flex flex-col gap-7.5 max-sm:gap-6 max-sm:mt-15">
-        <div className="w-[35vw] h-95 bg-[#f9fafc] p-9 border border-[#e7e7e7] shadow-feature/5 rounded-[30px] sticky top-34">
-          <span className='p-4.5 rounded-[14px] bg-linear-to-b from-brand to-[#16AC88] flex items-center w-fit shadow-icon'><Shop size={30} color="#ffffff" variant="Bold" /></span>
-          <h3 className="font-family text-[30px] font-semibold tracking-[-0.4px] mt-25">Custom Storefronts</h3>
-          <p className="font-family text-[#7D7E7F] text-[16px] w-140 mt-3 font-medium">Powerful tools designed to simplify how you sell, manage, and grow your business online—so you can stay in control, move faster, and scale with confidence.</p>
+      <div className="feature-cards flex flex-col gap-7.5 max-sm:gap-6 max-sm:mt-52 max-sm:w-full">
+        <div className="w-[35vw] h-95 bg-[#f9fafc] p-9 border border-[#e9e9e9] shadow-feature/5 rounded-[30px] sticky top-34 max-2xl:h-89 max-sm:w-full max-sm:relative max-sm:h-fit max-sm:p-7 max-sm:sticky max-sm:top-30">
+          <span className='p-4.5 max-sm:p-3.5 max-sm:px-4 rounded-[14px] bg-linear-to-b from-brand to-[#16AC88] flex items-center w-fit shadow-icon'><Shop size={30} color="#ffffff" variant="Bold" className='max-sm:w-6' /></span>
+          <h3 className="font-family text-[30px] font-semibold tracking-[-0.4px] mt-10 max-sm:text-[22px]">Custom Storefronts</h3>
+          <p className="font-family text-[#7D7E7F] text-[16px] w-140 mt-3 font-medium max-2xl:w-[100%] max-sm:text-[14px] max-sm:font-[400]">Powerful tools designed to simplify how you sell, manage, and grow your business online—so you can stay in control, move faster, and scale with confidence.</p>
         </div>
-        <div className="w-[35vw] h-95 bg-[#f9fafc] p-9 border border-[#e7e7e7] shadow-feature/5 rounded-[30px] sticky top-34">
-          <span className='p-4.5 rounded-[14px] bg-linear-to-b from-brand to-[#16AC88] flex items-center w-fit shadow-icon'><Category size={30} color="#ffffff" variant="Bold" /></span>
-          <h3 className="font-family text-[30px] font-semibold tracking-[-0.4px] mt-25">Product Management</h3>
-          <p className="font-family text-[#7D7E7F] text-[16px] w-140 mt-3 font-medium">Powerful tools designed to simplify how you sell, manage, and grow your business online—so you can stay in control, move faster, and scale with confidence.</p>
+        <div className="w-[35vw] h-95 bg-[#f9fafc] p-9 border border-[#e9e9e9] shadow-feature/5 rounded-[30px] sticky top-34 max-2xl:h-89 max-sm:w-full max-sm:relative max-sm:h-fit max-sm:p-7 max-sm:sticky max-sm:top-30">
+          <span className='p-4.5 rounded-[14px] max-sm:p-3.5 max-sm:px-4 bg-linear-to-b from-brand to-[#16AC88] flex items-center w-fit shadow-icon'><Category size={30} color="#ffffff" variant="Bold" className='max-sm:w-6' /></span>
+          <h3 className="font-family text-[30px] font-semibold tracking-[-0.4px] mt-10 max-sm:text-[22px]">Product Management</h3>
+          <p className="font-family text-[#7D7E7F] text-[16px] w-140 mt-3 font-medium max-2xl:w-[100%] max-sm:text-[14px] max-sm:font-[400]">Powerful tools designed to simplify how you sell, manage, and grow your business online—so you can stay in control, move faster, and scale with confidence.</p>
         </div>
-        <div className="w-[35vw] h-95 bg-[#f9fafc] p-9 border border-[#e7e7e7] shadow-feature/5 rounded-[30px] sticky top-34">
-          <span className='p-4.5 rounded-[14px] bg-linear-to-b from-brand to-[#16AC88] flex items-center w-fit shadow-icon'><Clock size={30} color="#ffffff" variant="Bold" /></span>
-          <h3 className="font-family text-[30px] font-semibold tracking-[-0.4px] mt-25">Order Tracking</h3>
-          <p className="font-family text-[#7D7E7F] text-[16px] w-140 mt-3 font-medium">Powerful tools designed to simplify how you sell, manage, and grow your business online—so you can stay in control, move faster, and scale with confidence.</p>
+        <div className="w-[35vw] h-95 bg-[#f9fafc] p-9 border border-[#e9e9e9] shadow-feature/5 rounded-[30px] sticky top-34 max-2xl:h-89 max-sm:w-full max-sm:relative max-sm:h-fit max-sm:p-7 max-sm:sticky max-sm:top-30">
+          <span className='p-4.5 rounded-[14px] max-sm:p-3.5 max-sm:px-4 bg-linear-to-b from-brand to-[#16AC88] flex items-center w-fit shadow-icon'><Clock size={30} color="#ffffff" variant="Bold" className='max-sm:w-6' /></span>
+          <h3 className="font-family text-[30px] font-semibold tracking-[-0.4px] mt-10 max-sm:text-[22px]">Order Tracking</h3>
+          <p className="font-family text-[#7D7E7F] text-[16px] w-140 mt-3 font-medium max-2xl:w-[100%] max-sm:text-[14px] max-sm:font-[400]">Powerful tools designed to simplify how you sell, manage, and grow your business online—so you can stay in control, move faster, and scale with confidence.</p>
         </div>
-        <div className="w-[35vw] h-95 bg-[#f9fafc] p-9 border border-[#e7e7e7] shadow-feature/5 rounded-[30px] sticky top-34">
-          <span className='p-4.5 rounded-[14px] bg-linear-to-b from-brand to-[#16AC88] flex items-center w-fit shadow-icon'><Chart size={30} color="#ffffff" variant="Bold" /></span>
-          <h3 className="font-family text-[30px] font-semibold tracking-[-0.4px] mt-25">Sales Insights</h3>
-          <p className="font-family text-[#7D7E7F] text-[16px] w-140 mt-3 font-medium">Powerful tools designed to simplify how you sell, manage, and grow your business online—so you can stay in control, move faster, and scale with confidence.</p>
+        <div className="w-[35vw] h-95 bg-[#f9fafc] p-9 border border-[#e9e9e9] shadow-feature/5 rounded-[30px] sticky top-34 max-2xl:h-89 max-sm:w-full max-sm:relative max-sm:h-fit max-sm:p-7 max-sm:sticky max-sm:top-30">
+          <span className='p-4.5 rounded-[14px] max-sm:p-3.5 max-sm:px-4 bg-linear-to-b from-brand to-[#16AC88] flex items-center w-fit shadow-icon'><Chart size={30} color="#ffffff" variant="Bold" className='max-sm:w-6' /></span>
+          <h3 className="font-family text-[30px] font-semibold tracking-[-0.4px] mt-10 max-sm:text-[22px]">Sales Insights</h3>
+          <p className="font-family text-[#7D7E7F] text-[16px] w-140 mt-3 font-medium max-2xl:w-[100%] max-sm:text-[14px] max-sm:font-[400]">Powerful tools designed to simplify how you sell, manage, and grow your business online—so you can stay in control, move faster, and scale with confidence.</p>
         </div>
-        <div className="w-[35vw] h-95 bg-[#f9fafc] p-9 border border-[#e7e7e7] shadow-feature/5 rounded-[30px] sticky top-34">
-          <span className='p-4.5 rounded-[14px] bg-linear-to-b from-brand to-[#16AC88] flex items-center w-fit shadow-icon'><Flash size={30} color="#ffffff" variant="Bold" /></span>
-          <h3 className="font-family text-[30px] font-semibold tracking-[-0.4px] mt-25">Smart Selling Tools</h3>
-          <p className="font-family text-[#7D7E7F] text-[16px] w-140 mt-3 font-medium">Powerful tools designed to simplify how you sell, manage, and grow your business online—so you can stay in control, move faster, and scale with confidence.</p>
+        <div className="w-[35vw] h-95 bg-[#f9fafc] p-9 border border-[#e9e9e9] shadow-feature/5 rounded-[30px] sticky top-34 max-2xl:h-89 max-sm:w-full max-sm:relative max-sm:h-fit max-sm:p-7 max-sm:sticky max-sm:top-30">
+          <span className='p-4.5 rounded-[14px] max-sm:p-3.5 max-sm:px-4 bg-linear-to-b from-brand to-[#16AC88] flex items-center w-fit shadow-icon'><Flash size={30} color="#ffffff" variant="Bold" className='max-sm:w-6' /></span>
+          <h3 className="font-family text-[30px] font-semibold tracking-[-0.4px] mt-10 max-sm:text-[22px]">Smart Selling Tools</h3>
+          <p className="font-family text-[#7D7E7F] text-[16px] w-140 mt-3 font-medium max-2xl:w-[100%] max-sm:text-[14px] max-sm:font-[400]">Powerful tools designed to simplify how you sell, manage, and grow your business online—so you can stay in control, move faster, and scale with confidence.</p>
         </div>
       </div>
     </section>
