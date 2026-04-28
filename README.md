@@ -6,26 +6,25 @@ Built with React, the project focuses on performance, clean UI design, and conve
 
 ## 🚀 Live Preview
 
-(Add your deployment link here if available)
 https://buy-tree.vercel.app <br>
 
 ## 🛠️ Tech Stack
-React (Vite / CRA depending on what you used)
-HTML5 & CSS3
-JavaScript (ES6+)
-React Hooks
-Responsive Design Principles <br><br>
+**React (Vite), 
+HTML5 & CSS3, 
+JavaScript (ES6+), 
+React Hooks, 
+Responsive Design Principles <br><br>**
 
 
 
 
 # ✨ Features
-Modern, responsive landing page design
-Clear product positioning and user-focused layout
-Optimized UI for fast loading and smooth interactions
-Component-based structure for reusability
-Mobile-first responsive design
-Clean and minimal interface for better conversion<br>
+- Modern, responsive landing page design
+- Clear product positioning and user-focused layout
+- Optimized UI for fast loading and smooth interactions
+- Component-based structure for reusability
+- Mobile-first responsive design
+- Clean and minimal interface for better conversion<br>
 
 ##  Project Purpose
 
@@ -38,13 +37,13 @@ This project was developed in collaboration with a backend/development partner w
 # 📸 Screenshots
 
 ![BuyTree Landing Page](./src/assets/Hero%20Section.png)
-Hero section <br>
+### Hero section <br>
 
 ![BuyTree What We Offer](./src/assets/What%20We%20Offer%20Section.png)
-What We Offer section
+### What We Offer section
 
 ![BuyTree How It Works](./src/assets/How%20It%20Works%20Section.png)
-How It Works section<br><br>
+### How It Works section<br><br>
 
 ## Installation & Setup
 ### Clone the repository
@@ -60,10 +59,10 @@ How It Works section<br><br>
 ``` npm run dev ```
 
 # 📌 Future Improvements
-Add animations and micro-interactions
-Improve SEO optimization
-Connect landing page to live backend API
-Add analytics tracking for user behavior<br>
+- Add animations and micro-interactions
+- Improve SEO optimization
+- Connect landing page to live backend API
+- Add analytics tracking for user behavior<br>
 
 ## 👨‍💻 Author
 
