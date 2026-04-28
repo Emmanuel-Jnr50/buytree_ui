@@ -14,7 +14,7 @@ React (Vite / CRA depending on what you used)
 HTML5 & CSS3
 JavaScript (ES6+)
 React Hooks
-Responsive Design Principles <br><br><br><br>
+Responsive Design Principles <br><br>
 
 
 
@@ -33,15 +33,18 @@ This landing page was built as the front-facing entry point for the BuyTree plat
 
 ## Collaboration
 
-This project was developed in collaboration with a backend/development partner who implemented the full web application. I was responsible for designing and building the landing page and ensuring a consistent user experience between the UI and the final product.<br><br><br><br>
+This project was developed in collaboration with a backend/development partner who implemented the full web application. I was responsible for designing and building the landing page and ensuring a consistent user experience between the UI and the final product.<br><br>
 
 # 📸 Screenshots
 
-(Add screenshots of your landing page here)
+![BuyTree Landing Page](./src/assets/Hero%20Section.png)
+Hero section <br>
 
-Hero section
-Features section
-Footer / CTA section<br><br><br><br>
+![BuyTree What We Offer](./src/assets/What%20We%20Offer%20Section.png)
+What We Offer section
+
+![BuyTree How It Works](./src/assets/How%20It%20Works%20Section.png)
+How It Works section<br><br>
 
 ## Installation & Setup
 ### Clone the repository
